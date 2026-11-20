@@ -1,0 +1,13 @@
+[project]
+name = "servidor-mcp"
+version = "1.0.0"
+description = "Servidor MCP da Central de Salas (Streamable HTTP, revisao 2026-07-28)"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp==2.3.0",
+    # transitiva do mcp (via pyjwt[crypto]); travada em uma versao com wheel para todas as plataformas
+    "cryptography==48.0.1",
+]
+
+[tool.uv]
+package = false
