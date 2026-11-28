@@ -1,6 +1,6 @@
 # A Ponte: um agente A2A com MCP por dentro
 
-Entrega do desafio **A Ponte**. São dois processos separados, em Python:
+Entrega do desafio **A Ponte** ([enunciado na plataforma Full Cycle](https://plataforma.fullcycle.com.br/courses/a091b0fe-a5c6-4287-a3d3-1ec61defcfd3/413/224/266/conteudos?projeto=70&fase=308)). São dois processos separados, em Python:
 
 | Processo | Pasta | Porta | Endpoint | Papel |
 |---|---|---|---|---|
