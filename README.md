@@ -19,8 +19,8 @@ Stack: `mcp==2.3.0` (SDK oficial Python, v2, revisão 2026-07-28 da spec) no ser
 Pré-requisitos: [uv](https://docs.astral.sh/uv/) e Python 3.11 ou superior. O uv baixa o Python 3.12 indicado em `.python-version` se ele não estiver instalado. O validador roda com o `python3` do sistema (3.10 ou superior).
 
 ```bash
-git clone https://github.com/marcelojuca/desafio-a2a-com-mcp.git
-cd desafio-a2a-com-mcp
+git clone https://github.com/marcelojuca/mba-ia-desafio-a2a-com-mcp.git
+cd mba-ia-desafio-a2a-com-mcp
 ```
 
 **Terminal 1: servidor MCP.** A chave do `requestState` vem de `REQUEST_STATE_SECRET`, com no mínimo 32 bytes aleatórios. Gere uma chave sua (nunca a commite) e use a mesma em todo restart, senão os `requestState` emitidos antes deixam de ser válidos:
